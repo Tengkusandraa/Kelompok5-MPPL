@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('admin.login');
 });
+
+Route::get('/login', 'AdminController@login');
+Route::get('/dashboard', 'AdminController@dashboard');
+

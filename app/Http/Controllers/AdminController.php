@@ -14,5 +14,9 @@ class AdminController extends Controller
     {
         return view('admin.dashboard');
     }
+    public function generalform()
+    {
+        return view('admin.generalform');
+    }
 
 }

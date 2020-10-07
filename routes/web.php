@@ -19,4 +19,4 @@ Route::get('/', function () {
 
 Route::get('/login', 'AdminController@login');
 Route::get('/dashboard', 'AdminController@dashboard');
-
+Route::get('/generalform', 'AdminController@generalform');

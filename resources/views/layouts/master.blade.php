@@ -69,8 +69,8 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     
-    <div class="image">
-      <img src="/admin/img/logo-rs.png" style="height:50px;width:164px">
+    <div class="image" style="text-align:center;">
+      <img src="/admin/img/logo-rs.png" style="height:50px;width:150px">
     </div>
 
     <!-- Sidebar -->

@@ -18,5 +18,13 @@ class AdminController extends Controller
     {
         return view('admin.generalform');
     }
+    public function kartustock()
+    {
+        return view('admin.kartustock');
+    }
+    public function persediaanobat()
+    {
+        return view('admin.persediaanobat');
+    }
 
 }

@@ -14,6 +14,7 @@
     <style type="text/css">
         body {
 		font-family: 'Varela Round', sans-serif;
+        background: linear-gradient(to bottom, #8ADFE3, #E5EFFF);
         }
         html {
             margin: 0;
@@ -91,6 +92,10 @@
 			<div class="user_card">
 				<div class="d-flex justify-content-center">
 				</div>
+                <br></br><br></br>
+                <div class="image" style="text-align:center;">
+                        <img src="/admin/img/logo-rs.png" style="height:50px;width:150px;">
+                </div>
 				<div class="d-flex justify-content-center form_container">
 					<form>
 						<div class="input-group mb-3">

@@ -26,5 +26,17 @@ class AdminController extends Controller
     {
         return view('admin.persediaanobat');
     }
+    public function dataadmin()
+    {
+        return view('admin.dataadmin');
+    }
+    public function ubahprofil()
+    {
+        return view('admin.ubahprofil');
+    }
+    public function riwayat()
+    {
+        return view('admin.riwayat');
+    }
 
 }

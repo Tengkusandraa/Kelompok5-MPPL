@@ -91,7 +91,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
+            <a href="/dashboard" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -99,50 +99,34 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="../widgets.html" class="nav-link">
+            <a href="/persediaanobat" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Informasi Obat
+                Stock Obat
               </p>
             </a>
           </li>
           <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
+            <a href="/kartustock" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
-                Persediaan Obat
+                Kartu Stock
               </p>
             </a>
           </li>
           <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
+            <a href="/riwayat" class="nav-link">
               <i class="nav-icon fas fa-chart-pie"></i>
-              <p>
-                Formulir Obat
-              </p>
-            </a>
-          </li>
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tree"></i>
-              <p>
-                Data Obat
-              </p>
-            </a>
-          </li>
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tree"></i>
               <p>
                 Riwayat
               </p>
             </a>
           </li>
           <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
+            <a href="/dataadmin" class="nav-link">
               <i class="nav-icon fas fa-tree"></i>
               <p>
-                Data Pengguna
+                Data Admin
               </p>
             </a>
           </li>

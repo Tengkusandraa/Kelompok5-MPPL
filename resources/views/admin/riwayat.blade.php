@@ -23,9 +23,10 @@
 
     <!-- Main content -->
     <div class="col-sm-6" style="font-size:17px;">
+    &emsp;
         <strong>Hari Ini</strong>
     </div>
-    <section class="content">
+    <section class="content" style="padding-right:20px;padding-left:20px;">
     <div class="small-box"style="padding-right:0px;background-color:#F4CE97;">
         <div class="card-footer">
             <th>Update : <strong>TengkuSa321</strong> telah memperbarui informasi obat <strong>Ambroksol Syr</strong> pada <strong>20 Oktober 2020</strong> pukul <strong>15:16.</strong></th>

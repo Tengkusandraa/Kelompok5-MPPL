@@ -28,7 +28,7 @@
         </div>
     </div>
 
-    <form class="form-inline ">
+    <form class="form-inline" style="padding-left:20px;">
     <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
             <div class="input-group">
               <input type="search" placeholder="search..." aria-describedby="button-addon1" class="form-control border-0 bg-light">
@@ -40,12 +40,11 @@
     </form>
 
     <!-- Default box -->
-    <div class="card card-solid">
-    <div class="card-body pb-0">
-        <div class="row d-flex align-items-stretch">
+    
+        <div class="row d-flex align-items-stretch" style="padding-left:20px;padding-right:20px;">
         <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
 
-            <div class="card bg-light">
+            <div class="card" style="background-color:#C4EFF1;">
             <div class="card-header text-muted border-bottom-0">
                 Instalasi Farmasi
             </div>
@@ -68,7 +67,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
-            <div class="card bg-light">
+            <div class="card" style="background-color:#C4EFF1;">
             <div class="card-header text-muted border-bottom-0">
                 Instalasi Farmasi
             </div>
@@ -91,7 +90,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
-            <div class="card bg-light">
+        <div class="card" style="background-color:#C4EFF1;">
             <div class="card-header text-muted border-bottom-0">
                 Instalasi Farmasi
             </div>
@@ -114,7 +113,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
-            <div class="card bg-light">
+        <div class="card" style="background-color:#C4EFF1;">
             <div class="card-header text-muted border-bottom-0">
                 Instalasi Farmasi
             </div>
@@ -137,7 +136,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
-            <div class="card bg-light">
+        <div class="card" style="background-color:#C4EFF1;">
             <div class="card-header text-muted border-bottom-0">
                 Instalasi Farmasi
             </div>
@@ -160,7 +159,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
-            <div class="card bg-light">
+        <div class="card" style="background-color:#C4EFF1;">
             <div class="card-header text-muted border-bottom-0">
                 Instalasi Farmasi
             </div>
@@ -183,7 +182,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
-            <div class="card bg-light">
+        <div class="card" style="background-color:#C4EFF1;">
             <div class="card-header text-muted border-bottom-0">
                 Instalasi Farmasi
             </div>
@@ -206,7 +205,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
-            <div class="card bg-light">
+        <div class="card" style="background-color:#C4EFF1;">
             <div class="card-header text-muted border-bottom-0">
                 Instalasi Farmasi
             </div>
@@ -229,7 +228,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
-            <div class="card bg-light">
+        <div class="card" style="background-color:#C4EFF1;">
             <div class="card-header text-muted border-bottom-0">
                 Instalasi Farmasi
             </div>

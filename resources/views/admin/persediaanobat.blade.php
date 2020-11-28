@@ -25,7 +25,8 @@
     <div class="small-box bg-info"style="padding-right:0px;">
         <div class="card-footer">
             <th>Selamat datang Sandra di Sistem Monitoring Data Obat</th>
-            <button type="submit" class="btn btn-default float-right">Tambah Obat</button>
+            <a href="/generalform">
+            <button type="submit" class="btn btn-default float-right">Tambah Obat</button></a>
             </div>
     </div>
 

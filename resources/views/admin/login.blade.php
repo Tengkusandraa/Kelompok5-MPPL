@@ -89,15 +89,15 @@
 <body>
 	<div class="container h-100">
 		<div class="d-flex justify-content-center h-100">
-			<div class="user_card">
+			<div class="user_card" style="height:350px;width:350px;">
 				<div class="d-flex justify-content-center">
 				</div>
-                <br></br><br></br>
-                <div class="image" style="text-align:center;">
-                        <img src="/admin/img/logo-rs.png" style="height:50px;width:150px;">
-                </div>
-				<div class="d-flex justify-content-center form_container">
+                
+				<div class="d-flex justify-content-center form_container h-100" style="height:300px;width:330px;">
 					<form>
+                    <div class="image" style="text-align:center;">
+                        <img src="/admin/img/logo-rs.png" style="height:50px;width:150px;">
+                </div><br></br>
 						<div class="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
@@ -116,17 +116,20 @@
 								<label class="custom-control-label" for="customControlInline">Remember me</label>
 							</div>
 						</div>
-							<div class="d-flex justify-content-center mt-3 login_container">
-				 	<button type="button" name="button" class="btn login_btn">Login</button>
+                    <a href="/dashboard">		
+                        <div class="d-flex justify-content-center mt-3 login_container">
+				 	    <button type="button" name="button" class="btn login_btn" style="height:40px;width:130px;">Login</button>
+                     </a>
 				   </div>
+                    <div class="mt-4">
+                        <div class="d-flex justify-content-center links">
+                            <a href="#">Forgot your password?</a>
+                        </div>
+                    </div>
 					</form>
 				</div>
 
-				<div class="mt-4">
-					<div class="d-flex justify-content-center links">
-						<a href="#">Forgot your password?</a>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	</div>

@@ -25,3 +25,7 @@ Route::get('/persediaanobat', 'AdminController@persediaanobat');
 Route::get('/dataadmin', 'AdminController@dataadmin');
 Route::get('/ubahprofil', 'AdminController@ubahprofil');
 Route::get('/riwayat', 'AdminController@riwayat');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

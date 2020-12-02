@@ -63,6 +63,21 @@
             <i class="fas fa-th-large"></i>
           </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link">
+            {{ Auth::user()->name }}
+          </a>
+        </li>
+        <li class="nav-item">
+          <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+            @csrf
+          </form>
+
+          <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();
+          document.getElementById('logout-form').submit();">
+            Keluar
+          </a>
+        </li>
       </ul>
     </nav>
     <!-- /.navbar -->

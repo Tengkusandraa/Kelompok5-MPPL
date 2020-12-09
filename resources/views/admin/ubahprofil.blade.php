@@ -13,7 +13,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
-              <li class="breadcrumb-item active"><a href="#">Profil Saya</a></li>
+              <li class="breadcrumb-item active"><a href="/profil">Profil Saya</a></li>
               <li class="breadcrumb-item active">Ubah Profil</li>
             </ol>
           </div>
@@ -40,7 +40,7 @@
 
             <!-- general form elements -->
             <div class="card card-primary">
-              <div class="card-header">
+              <div class="card-header" style="background-color:#4699C2;">
                 <h3 class="card-title">Ubah Profil</h3>
               </div>
               <!-- /.card-header -->
@@ -57,61 +57,67 @@
                   <div class="form-group row">
                     <label for="inputName" class="col-sm-2 col-form-label">ID</label>
                       <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputName" placeholder="ID">
+                      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="TengkuSa321" required>
                       </div>
                   </div>
                   <div class="form-group row">
                     <label for="inputName" class="col-sm-2 col-form-label">Nama</label>
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputName" placeholder="Nama">
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Tengku Sandra Alyssa" required>
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="inputName" class="col-sm-2 col-form-label">No. SIP</label>
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputName" placeholder="No. SIP">
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="12345678910" required>
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="inputName" class="col-sm-2 col-form-label">Jabatan</label>
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputName" placeholder="Jabatan">
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Dokter Poli Bedah Anak" required>
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="yayak@gmail.com" required>
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="inputName2" class="col-sm-2 col-form-label">No. Telepon</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName2" placeholder="No. Telepon">
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="081234567891" required>
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="inputExperience" class="col-sm-2 col-form-label">Alamat</label>
                     <div class="col-sm-10">
-                      <textarea class="form-control" id="inputExperience" placeholder="Alamat"></textarea>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Jln. in dulu aja Blok. IR kemudian Medan, Sumatra Utara" required>
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="inputSkills" class="col-sm-2 col-form-label">Kata Sandi Lama</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputSkills" placeholder="Kata Sandi Lama">
+                        <input type="password" id="inputPassword6" class="form-control" value="081234567891" aria-describedby="passwordHelpInline">
+                        <small id="passwordHelpInline" class="text-muted">
+                        </small>
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="inputName" class="col-sm-2 col-form-label">Kata Sandi Baru</label>
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputName" placeholder="Kata Sandi Baru">
+                        <input type="password" id="inputPassword6" class="form-control" value="12345678" aria-describedby="passwordHelpInline">
+                        <small id="passwordHelpInline" class="text-muted">
+                        </small>
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="inputName" class="col-sm-2 col-form-label">Ulangi Kata Sandi Baru</label>
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputName" placeholder="Ulangi Kata Sandi Baru">
+                        <input type="password" id="inputPassword6" class="form-control" value="12345678" aria-describedby="passwordHelpInline">
+                        <small id="passwordHelpInline" class="text-muted">
+                        </small>
                     </div>
                   </div>
                   <div class="form-group row">
@@ -125,7 +131,8 @@
                   </div>
                   <div class="form-group row">
                     <div class="offset-sm-2 col-sm-10">
-                      <button type="submit" class="btn btn-danger">Simpan</button>
+                    <a href="/profil">
+                    <div class ="btn btn-info">Simpan</div>
                     </div>
                   </div>
 

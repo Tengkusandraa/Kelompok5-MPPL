@@ -39,7 +39,7 @@
 
             <!-- general form elements -->
             <div class="card card-primary">
-              <div class="card-header">
+              <div class="card-header" style="background-color:#4699C2;">
                 <h3 class="card-title">Form Pengisian Obat</h3>
               </div>
               <!-- /.card-header -->
@@ -196,7 +196,7 @@
                 <!-- /.card-body -->
                 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Simpan</button>
+                  <button type="submit" class="btn btn-primary" style="background-color:#4699C2;">Simpan</button>
                 </div>
               </form>
             </div>

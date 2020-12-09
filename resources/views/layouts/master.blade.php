@@ -126,7 +126,7 @@
             </a>
           </li>
           <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
+            <a href="/profil" class="nav-link">
               <p style="color:black;">
                 Profil
               </p>

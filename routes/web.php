@@ -26,3 +26,7 @@ Route::get('/dataadmin', 'AdminController@dataadmin');
 Route::get('/ubahprofil', 'AdminController@ubahprofil');
 Route::get('/riwayat', 'AdminController@riwayat');
 Route::get('/profil', 'AdminController@profil');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
